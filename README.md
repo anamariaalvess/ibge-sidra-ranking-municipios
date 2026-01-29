@@ -1,1 +1,0 @@
-# ibge-sidra-ranking-municipios
