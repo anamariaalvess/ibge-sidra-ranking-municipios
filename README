@@ -1,0 +1,31 @@
+# Ranking e Mapa Socioeconômico por Município (IBGE/SIDRA)
+
+## Pergunta
+Como o PIB e o PIB per capita variam entre municípios de Goiás e como isso evoluiu nos últimos anos?
+
+## Dados (fontes públicas)
+- IBGE/SIDRA: PIB dos Municípios (tabela 5938)
+- IBGE/SIDRA: População estimada (tabela 1301)
+- IBGE/SIDRA: Área territorial (tabela 6579)
+- Malha municipal: geobr (geometrias oficiais)
+
+## Metodologia
+- Coleta via API (sidrapy + IBGE Localidades)
+- Padronização de chaves municipais
+- Construção de indicadores derivados (PIB per capita, PIB/km²)
+- Visualizações: ranking, séries temporais e mapa
+
+## Principais resultados
+- (1) …
+- (2) …
+- (3) …
+
+## Como reproduzir
+pip install -r requirements.txt
+Execute os notebooks em ordem:
+- notebooks/01_coleta_e_eda.ipynb
+- notebooks/02_ranking_e_mapas.ipynb
+
+## Limitações
+- Dados agregados por município
+- Possíveis revisões/metodologias ao longo do tempo

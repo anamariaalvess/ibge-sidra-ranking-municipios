@@ -1,0 +1,8 @@
+pandas
+numpy
+requests
+sidrapy
+plotly
+geopandas
+geobr
+pyarrow
